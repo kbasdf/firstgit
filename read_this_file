@@ -1,0 +1,30 @@
+*steps (to understand what is happening)
+
+~this is python boto basic project.
+~Python boto 3 is used to talk to aws (cloud)
+~developers need to talk to cloud from local computers
+
+~developers cannot log into aws console over and over.
+
+~So they need to talk to their aws console via API (via local computer)
+
+~boto is programming that one can.
+
+~in order to do this, you need aws (client app) - this app can talk to your aws online account
+
+~in aws app (shell app or cmd app). you need to configure your credenentials(login and password)
+
+~so, on cmd or shell, do following -
+aws config 
+
+~this will ask you for username and password, and also, the vpc(which basically means region - like usa,india,europe).
+
+~keep hitting 'enter' on keyboard
+
+~once, done, aws is configured.
+
+~you are ready to now talk to -
+your aws account from local computer.
+
+~~     ~~ end of file  ~~
+
